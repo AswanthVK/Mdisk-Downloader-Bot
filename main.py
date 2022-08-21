@@ -5,9 +5,9 @@ import threading
 import mdisk
 import split
 
-bot_token = os.environ.get("TOKEN", "") 
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "") 
+bot_token = os.environ.get("TOKEN", "1823808722:AAE8w-IHSzL9gbrauyBRvLXJ6CfCQ3JmzMY") 
+api_hash = os.environ.get("HASH", "23dac54b523173b5f83014ae566584bd") 
+api_id = os.environ.get("ID", "663122") 
 
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
 
